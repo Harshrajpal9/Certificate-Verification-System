@@ -45,10 +45,7 @@ app.use(cookieParser());
 // CORS
 app.use(
   cors({
-    origin: [
-      "http://localhost:3000",
-      "https://certificate-verification-system-delta.vercel.app",
-    ],
+    origin: true,
     credentials: true,
   })
 );
