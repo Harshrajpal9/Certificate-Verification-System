@@ -381,7 +381,7 @@ export default function Landing() {
 
       {/* FOOTER */}
       <footer className="bg-slate-900 text-gray-400 py-4 text-center text-xs sm:text-sm">
-        © 2026 CertifyPro. All rights reserved.
+        © {new Date().getFullYear()} CertifyPro. All rights reserved.
       </footer>
     </div>
   );
