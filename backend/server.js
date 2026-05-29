@@ -47,7 +47,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://yourfrontend.vercel.app",
+      "https://certificate-verification-system-delta.vercel.app",
     ],
     credentials: true,
   })
