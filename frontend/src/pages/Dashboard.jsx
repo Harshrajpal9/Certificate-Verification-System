@@ -166,9 +166,9 @@ export default function UserDashboard() {
         </div>
 
         {/* Main Section */}
-        <div className="grid lg:grid-cols-2 gap-6">
+        <div className="grid lg:grid-cols-2 gap-6 items-start">
           {/* Search Card */}
-          <div className="bg-white/80 backdrop-blur-lg border border-white/40 rounded-2xl shadow-xl p-5 md:p-6">
+          <div className="bg-white/80 backdrop-blur-lg border border-white/40 rounded-2xl shadow-xl p-5 md:p-6  self-start">
             <div className="flex items-center gap-3 mb-5">
               <div className="w-11 h-11 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 flex items-center justify-center shadow-md">
                 <FiSearch className="text-white text-xl" />
@@ -205,7 +205,7 @@ export default function UserDashboard() {
           </div>
 
           {/* Certificate Card */}
-          <div className="relative overflow-hidden rounded-2xl shadow-xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-5 md:p-6 text-white">
+          <div className="relative overflow-hidden rounded-2xl shadow-xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-5 md:p-6 text-white min-h-[450px] md:min-h-[520px]">
             <div className="absolute top-0 right-0 w-52 h-52 bg-emerald-500/10 rounded-full blur-3xl"></div>
 
             <div className="relative z-10">
