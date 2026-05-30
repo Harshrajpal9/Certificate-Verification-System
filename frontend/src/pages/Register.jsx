@@ -62,40 +62,13 @@ export default function Register() {
       <div className="absolute bottom-0 right-0 w-40 h-40 sm:w-72 sm:h-72 bg-cyan-300/20 rounded-full blur-3xl"></div>
 
       {/* Home Button */}
-      <button
-        onClick={() => navigate("/")}
-        className="
-          fixed
-          top-3
-          left-3
-          sm:top-5
-          sm:left-5
-          z-30
-          flex
-          items-center
-          gap-2
-          px-3
-          py-2
-          sm:px-4
-          rounded-xl
-          bg-white/80
-          backdrop-blur-lg
-          border
-          border-white/40
-          shadow-md
-          hover:shadow-lg
-          transition-all
-          duration-300
-          hover:scale-105
-          text-xs
-          sm:text-sm
-          font-medium
-          text-gray-700
-        "
-      >
-        <FaArrowLeft />
-        Home
-      </button>
+       <button
+             onClick={() => navigate("/")}
+             className="absolute top-5 left-5 z-20 flex items-center gap-2 px-4 py-2 rounded-xl bg-white/70 backdrop-blur-lg border border-white/40 shadow hover:shadow-md hover:scale-105 transition-all duration-300 text-sm font-medium text-gray-700"
+           >
+             <FaArrowLeft />
+             Home
+           </button>
 
       {/* Main Card */}
       <div
